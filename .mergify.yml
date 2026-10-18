@@ -1,0 +1,7 @@
+pull_request_rules:
+  - name: VM7 post-demotion private marker 261018
+    conditions:
+      - title = NEVER_MATCH_VM7_POST_DEMOTION_261018
+    actions:
+      comment:
+        message: VM7_POST_DEMOTION_PRIVATE_CONFIG_MARKER_261018
